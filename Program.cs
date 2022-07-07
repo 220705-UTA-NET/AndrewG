@@ -55,6 +55,48 @@ namespace CSharpConcepts {
                     break;
             }
 
+            // for loops, while loops
+
+            for (int i = 0; i < newint; i++) {
+                Console.WriteLine(i);
+            }
+
+            while (newint < 10) {
+                Console.WriteLine(newint);
+                newint++;
+            }
+
+            // do while - will run at least once even if the condition is false
+
+            do {
+                Console.WriteLine(newint);
+                newint++;
+            } while (false);
+
+            private int AddValues (int a, int b)
+            {
+                int answer = a + b;
+                return answer;
+            }
+
+            int addedValues = AddValues(newint, 2);
+
+            // OOP Principles
+            // Encapsulation - Rich's bad gumball machine; limits access to outside parties (users, other systems, other
+                // classes) to only the parts they need to know about.
+            // Abstraction - Hiding the details of how something works.
+            // Inheritance - creating new classes from existing classes. Can be described as an "Is-A" relationship.
+                // a child/sub/derived class "is a" parent/super/base class. a dog "is an" animal.
+                // inherited classes will receive all the members (fields and methods) of the parent class.
+                // C# cannot do TRUE multiple inheritance, but it can fake it.
+
+            // Polymorphism - taking on many forms, through method overloading and overriding
+                // overloading - same method name, but different parameters
+                    // example: AddValues(int a, int b)
+                    // example: AddValues(int a, int b, int c)
+                    // example: AddValues(double a, int b)
+                // overriding - same method as parent, but different functionality
+
         }
     }
 }
