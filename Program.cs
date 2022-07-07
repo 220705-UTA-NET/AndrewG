@@ -38,7 +38,7 @@ namespace CSharpConcepts {
             int newint = 4;
 
             switch(newint) {
-                case 1:
+                case 1: // if (newint == 1)
                     Console.WriteLine("1");
                     break;
                 case 2:
