@@ -8,7 +8,7 @@
 
 public class program {
     public static void Main() {
-        Console.WriteLine();
+        Console.WriteLine("Hello");
         Console.Write(); //Writes to the console, but it does not automatically end the line
         Console.ReadLine(); //Reads from the console.
     }
