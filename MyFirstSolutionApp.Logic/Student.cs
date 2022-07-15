@@ -1,6 +1,8 @@
-﻿namespace MyFirstSolutionApp.Logic;
-public class Student
+﻿namespace MyFirstSolutionApp.Logic
 {
+    public class Student
+    {
 
+    }
 }
 
